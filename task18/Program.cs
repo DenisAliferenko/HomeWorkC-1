@@ -2,7 +2,7 @@
 Console.Clear();
 Console.Write(" Напишем произведения чисел от 1 до:  ");
 int x = int.Parse(Console.ReadLine() ?? "0");
-int res = 1;
+double res = 1;
 
 for (int num = 1; num <= x; num++)
     {   
@@ -10,6 +10,6 @@ for (int num = 1; num <= x; num++)
         Console.WriteLine(res);
         
     }
-return res;
+
 
 //  подскажиет как написть с double ?? после 16 цифры выдает отрицательные числа. При попытке преорбразовать в double не работает return res;
